@@ -1,0 +1,223 @@
+#root {
+  max-width: 880px;
+  margin: 0 auto;
+  padding: 24px 20px 64px;
+}
+
+.app-header {
+  display: flex;
+  align-items: baseline;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  gap: 8px;
+  margin-bottom: 16px;
+}
+
+.app-header p {
+  color: var(--muted);
+}
+
+.tabs {
+  display: flex;
+  gap: 4px;
+  border-bottom: 1px solid var(--border);
+  margin-bottom: 20px;
+  flex-wrap: wrap;
+}
+
+.tabs button {
+  background: none;
+  border: none;
+  border-bottom: 2px solid transparent;
+  padding: 10px 14px;
+  font-size: 15px;
+  color: var(--muted);
+  cursor: pointer;
+}
+
+.tabs button.active {
+  color: var(--accent);
+  border-bottom-color: var(--accent);
+  font-weight: 600;
+}
+
+.card {
+  background: var(--bg-subtle);
+  border: 1px solid var(--border);
+  border-radius: 10px;
+  padding: 20px;
+  margin-bottom: 20px;
+  text-align: left;
+}
+
+.card h2 {
+  font-size: 18px;
+}
+
+.card h3 {
+  font-size: 15px;
+  margin-top: 16px;
+}
+
+.hint {
+  color: var(--muted);
+  font-size: 13.5px;
+  line-height: 1.5;
+}
+
+label {
+  display: block;
+  font-size: 13.5px;
+  font-weight: 500;
+  color: var(--text-h);
+  margin: 12px 0 4px;
+  flex: 1;
+}
+
+label.checkbox-row {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+}
+
+label.checkbox-row input {
+  width: auto;
+}
+
+input,
+select {
+  width: 100%;
+  font: inherit;
+  padding: 8px 10px;
+  border-radius: 6px;
+  border: 1px solid var(--border);
+  background: var(--bg);
+  color: var(--text-h);
+}
+
+.row {
+  display: flex;
+  gap: 16px;
+  flex-wrap: wrap;
+}
+
+.row > label {
+  min-width: 140px;
+}
+
+.row.space-between {
+  justify-content: space-between;
+  align-items: center;
+}
+
+button {
+  font: inherit;
+  font-weight: 600;
+  padding: 9px 16px;
+  border-radius: 7px;
+  border: 1px solid var(--accent);
+  background: var(--accent-bg);
+  color: var(--accent);
+  cursor: pointer;
+  margin-top: 14px;
+}
+
+button:disabled {
+  opacity: 0.5;
+  cursor: default;
+}
+
+.status-ok {
+  color: var(--accent);
+  font-size: 13.5px;
+  margin-top: 10px;
+}
+
+.status-error {
+  color: var(--danger);
+  font-size: 13.5px;
+  margin-top: 10px;
+}
+
+.table-wrap {
+  overflow-x: auto;
+}
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+  font-size: 13.5px;
+  margin-top: 8px;
+}
+
+th,
+td {
+  text-align: left;
+  padding: 8px 10px;
+  border-bottom: 1px solid var(--border);
+  white-space: nowrap;
+}
+
+th {
+  color: var(--muted);
+  font-weight: 600;
+}
+
+.badge {
+  display: inline-block;
+  padding: 2px 8px;
+  border-radius: 999px;
+  font-size: 12px;
+  font-weight: 600;
+}
+
+.badge-booked,
+.badge-success,
+.badge-completed {
+  background: var(--accent-bg);
+  color: var(--accent);
+}
+
+.badge-failed,
+.badge-failure {
+  background: var(--danger-bg);
+  color: var(--danger);
+}
+
+.badge-no_slot_available,
+.badge-in_progress,
+.badge-queued {
+  background: var(--warn-bg);
+  color: var(--warn);
+}
+
+.badge-disabled {
+  background: var(--muted-bg);
+  color: var(--muted);
+}
+
+.run-list {
+  list-style: none;
+  padding: 0;
+  margin: 8px 0 0;
+}
+
+.run-list li {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 6px 0;
+  border-bottom: 1px solid var(--border);
+  font-size: 13.5px;
+}
+
+.run-list a {
+  color: var(--text);
+}
+
+.footer-note {
+  color: var(--muted);
+  font-size: 12.5px;
+  text-align: center;
+  margin-top: 24px;
+}

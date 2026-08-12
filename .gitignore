@@ -1,0 +1,11 @@
+node_modules/
+dist/
+bot/artifacts/
+.DS_Store
+*.log
+
+# Never commit real credentials — the bot reads these from GitHub Actions secrets.
+.env
+
+# Local Claude Code settings, not part of the app.
+.claude/

@@ -1,0 +1,8 @@
+{
+  "facilityName": "",
+  "facilityId": "",
+  "preferredTimes": ["09:00"],
+  "duration": 60,
+  "daysInAdvance": 7,
+  "enabled": false
+}

@@ -1,0 +1,19 @@
+{
+  "name": "tennis-bot",
+  "private": true,
+  "type": "module",
+  "version": "1.0.0",
+  "scripts": {
+    "reserve": "tsx src/index.ts",
+    "codegen": "playwright codegen https://www.nycgovparks.org/tennisreservation/",
+    "typecheck": "tsc --noEmit"
+  },
+  "dependencies": {
+    "playwright": "^1.47.2"
+  },
+  "devDependencies": {
+    "@types/node": "^22.5.4",
+    "tsx": "^4.19.1",
+    "typescript": "^5.5.4"
+  }
+}
