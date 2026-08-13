@@ -1,1 +1,11 @@
-[]
+[
+  {
+    "runAt": "2026-08-13T05:25:33.987Z",
+    "targetDate": "2026-08-20",
+    "facilityName": "",
+    "requestedTime": "09:00",
+    "duration": 60,
+    "trigger": "schedule",
+    "status": "disabled"
+  }
+]
