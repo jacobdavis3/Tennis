@@ -1,5 +1,14 @@
 [
   {
+    "runAt": "2026-11-18T12:22:20.686Z",
+    "targetDate": "2026-11-25",
+    "facilityName": "",
+    "requestedTime": "09:00",
+    "duration": 60,
+    "trigger": "schedule",
+    "status": "disabled"
+  },
+  {
     "runAt": "2026-11-17T12:33:21.206Z",
     "targetDate": "2026-11-24",
     "facilityName": "",
